@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Mike's Personal Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-oRdW4ZzhQ+r+phzT5R1LNOFmF7MKbqFw9sYJlrJt25nZp+gplh9vgp7e7JJc2cAxZ7fNkdj1XtjyZ4r6JfSU3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #1e1e1e;
+            color: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .nav-menu a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 20px;
+            background-color: #4b0082;
+            transition: background-color 0.3s ease;
+        }
+        .nav-menu a:hover {
+            background-color: #6a2c70;
+        }
+        .content {
+            background-color: #fff;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: left;
+            line-height: 1.6;
+        }
+        .image-container {
+            margin-bottom: 50px;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #1e1e1e;
+            color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .footer p {
+            font-size: 1em;
+            margin: 0;
+        }
+        .login-signup-panel {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .login-signup-panel input[type="text"],
+        .login-signup-panel input[type="password"],
+        .login-signup-panel input[type="submit"] {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: calc(100% - 20px);
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .login-signup-panel input[type="submit"] {
+            background-color: #4b0082;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-signup-panel input[type="submit"]:hover {
+            background-color: #6a2c70;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x900');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%);
+        }
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            z-index: 1;
+        }
+        .hero-content h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        .hero-content a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #4b0082;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .hero-content a:hover {
+            background-color: #6a2c70;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Teacher Mike's Personal Webpage</h1>
+        <div class="nav-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">CV menu</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h2>Welcome to Teacher Mike's Website</h2>
+            <p>Unlock the world of English language learning with me.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Hello, I'm Teacher Mike, an ESL English teacher with 10 years of experience. I've had the pleasure of teaching
+
+        </div>
+</div>
+</body>
+</html>
